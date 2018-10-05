@@ -52,8 +52,7 @@ function choose_icon()
     #
     rm -rf $thisDir/tmp/
     mkdir -p $thisDir/tmp/
-    curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/Icons.plist -o $thisDir/tmp/Icons.plist
-    # curl -fsSL http://127.0.0.1:8080/Icons.plist -o $thisDir/tmp/Icons.plist
+    cp $thisDir/Icons.plist $thisDir/tmp/Icons.plist
 
 #
 cat << EOF

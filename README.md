@@ -2,7 +2,7 @@
 
 ## Explanation
 
-[English](README.md) | [中文](README-zh.md)
+[English](README.md)
 
  This script can simulate macOS HiDPI on a non-retina display, and have a "Native" Scaled in System Preferences.
 
@@ -13,16 +13,6 @@ Logo scaling up may not be resolved, cuz the higher resolution is faked.
 System Preferences
 
 ![Preferences](./img/preferences.jpg)
-
-## Usage
-
-Run script in Terminal
-
-```
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
-```
-
-![RUN](./img/run.jpg)
 
 ## Recovery
 
